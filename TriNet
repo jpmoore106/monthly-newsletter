@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Title</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: auto; padding: 20px; }
+        .header { text-align: center; }
+        .header img { max-width: 100%; height: auto; }
+        .content { margin: 20px 0; }
+        .footer { text-align: center; font-size: 12px; color: #777; }
+        .cta { display: inline-block; padding: 10px 20px; background-color: #007BFF; color: #FFF; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="Company Logo">
+            <h1>Newsletter Title</h1>
+            <p>Tagline or short description</p>
+        </div>
+        <div class="content">
+            <h2>Section Title</h2>
+            <p>Introduction to the section content...</p>
+            <a href="https://example.com" class="cta">Read More</a>
+        </div>
+        <div class="content">
+            <h2>Another Section Title</h2>
+            <p>More engaging content...</p>
+            <a href="https://example.com" class="cta">Learn More</a>
+        </div>
+        <div class="footer">
+            <p>Follow us on <a href="#">Social Media Links</a></p>
+            <p><a href="unsubscribe-link">Unsubscribe</a> | Contact Us</p>
+        </div>
+    </div>
+</body>
+</html>
